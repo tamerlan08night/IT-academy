@@ -1,0 +1,107 @@
+﻿/* Шапка секції з заголовком та посиланням */
+.articles-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.articles-header h2 {
+    font-size: 22px;
+    color: #0f172a;
+}
+
+.see-all-link {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Використовуємо CSS Grid, щоб розставити 3 картки в один ряд */
+.articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 однакові колонки */
+    gap: 16px;
+}
+
+/* Стиль однієї картки */
+.article-card {
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Замінник картинки зверху */
+.card-image-placeholder {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.card-body {
+    padding: 14px;
+}
+
+.card-body h3 {
+    font-size: 15px;
+    margin-bottom: 6px;
+    color: #0f172a;
+}
+
+.card-body p {
+    font-size: 12px;
+    color: #64748b;
+    line-height: 1.4;
+}
+
+/* Нижня частина картки з міткою та датою */
+.card-footer {
+    padding: 10px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #f1f5f9;
+}
+
+/* Кольорові теги категорій */
+.badge {
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.badge-blue {
+    background-color: #dbeafe;
+    color: #1d4ed8;
+}
+
+.badge-green {
+    background-color: #dcfce7;
+    color: #15803d;
+}
+
+.badge-purple {
+    background-color: #f3e8ff;
+    color: #6b21a8;
+}
+
+.card-date {
+    font-size: 11px;
+    color: #94a3b8;
+}
+
+.card-image {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}

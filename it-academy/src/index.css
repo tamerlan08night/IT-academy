@@ -1,0 +1,12 @@
+/* Базове скидання відступів та налаштування розмірів */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: #f8fafc; /* Легкий світлий фон для всієї сторінки */
+  color: #0f172a;           /* Темний колір тексту за замовчуванням */
+}

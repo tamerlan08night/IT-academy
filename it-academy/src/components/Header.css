@@ -1,0 +1,51 @@
+﻿/* Верхня темно-синя панель */
+.top-bar {
+    background-color: #1b365d; /* Темно-синій фон */
+    color: white;               /* Білий текст */
+    display: flex;              /* Ставимо елементи в один горизонтальний ряд */
+    justify-content: space-between; /* Логотип зліва, меню справа */
+    align-items: center;        /* Вирівнювання по вертикальному центру */
+    padding: 16px 40px;         /* Відступи всередині панелі */
+}
+
+/* Логотип */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;                  /* Відстань між <> і текстом */
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.logo-icon {
+    color: #60a5fa;             /* Блакитний колір для символу <> */
+}
+
+/* Посилання у верхньому меню */
+.top-nav a {
+    color: white;
+    text-decoration: none;      /* Прибираємо підкреслення */
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+/* Нижня світло-сіра смужка */
+.sub-nav {
+    background-color: #e2e8f0;
+    display: flex;
+    justify-content: center;    /* Меню по центру */
+    gap: 30px;                  /* Відстань між пунктами меню */
+    padding: 12px 0;
+}
+
+.sub-nav a {
+    color: #1e293b;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Активна вкладка з синьою рисками знизу */
+.sub-nav a.active {
+    color: #0572eb;
+    border-bottom: 3px solid #2563eb;
+}

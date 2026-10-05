@@ -1,0 +1,70 @@
+﻿/* Вся права колонка */
+.sidebar {
+    display: flex;
+    flex-direction: column; /* Блоки всередині колонки стають один під одним */
+    gap: 20px;               /* Відстань 20px між блоками */
+    width: 300px;            /* Фіксована ширина правої колонки */
+}
+
+/* Спільні стилі для карточок в боковій панелі */
+.sidebar-card {
+    background-color: #f1f5f9; /* Світло-сірий фон */
+    padding: 20px;
+    border-radius: 12px;       /* Заокруглені кути */
+}
+
+.sidebar-card h3 {
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #0f172a;
+}
+
+.sidebar-card p {
+    font-size: 14px;
+    color: #475569;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+/* Кнопка "Les mer" */
+.sidebar-btn {
+    background-color: transparent;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Список ресурсів */
+.resources-list {
+    list-style: none; /* Прибираємо стандартні крапки списку */
+    padding: 0;
+}
+
+.resources-list li {
+    padding: 8px 0;
+    color: #2563eb;   /* Синій колір для посилань */
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Блок цитати */
+.quote-card {
+    background-color: #e0f2fe; /* Ніжно-блакитний колір фону */
+}
+
+.quote-icon {
+    font-size: 32px;
+    color: #0284c7;
+    margin-bottom: 0 !important;
+    font-weight: bold;
+}
+
+.quote-text {
+    font-style: italic; /* Похилий текст для цитати */
+    color: #0369a1 !important;
+    font-size: 15px;
+}
